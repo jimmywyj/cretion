@@ -30,7 +30,7 @@ public class LightEntity extends Entity {
         LightCount = 0;
 
         try {
-            shader = Shader.makeShader("shaders/LightShader.vert", "shaders/LightShader.frag");
+            shader = Shader.makeShader("resources/shaders/LightShader.vert", "resources/shaders/LightShader.frag");
         } catch (Exception e) {
             e.printStackTrace();
         }
