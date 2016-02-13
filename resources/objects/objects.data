@@ -1,0 +1,24 @@
+<objects>
+    <object name="bed-front" resource="bed" sx="0" sy="0" w="16" h="32"></object>
+
+    <object name="bookshelf-front" resource="bookshelf" sx="0" sy="0" w="0" h="0"></object>
+    <object name="bookshelf-side" resource="bookshelf" sx="0" sy="0" w="0" h="0"></object>
+
+    <object name="chair-back" resource="chair" sx="0" sy="0" w="0" h="0"></object>
+    <object name="chair-front" resource="chair" sx="0" sy="0" w="0" h="0"></object>
+    <object name="chair-side" resource="chair" sx="0" sy="0" w="0" h="0"></object>
+
+    <object name="rug01" resource="rug" sx="0" sy="0" w="0" h="0"></object>
+    <object name="rug02" resource="rug" sx="0" sy="0" w="0" h="0"></object>
+
+    <object name="stairs-down" resource="stairs" sx="0" sy="0" w="0" h="0"></object>
+    <object name="stairs-up" resource="stairs" sx="0" sy="0" w="0" h="0"></object>
+
+    <object name="statue" resource="statue" sx="0" sy="0" w="0" h="0"></object>
+
+    <object name="table-big" resource="table" sx="0" sy="0" w="0" h="0"></object>
+    <object name="table-small" resource="table" sx="0" sy="0" w="0" h="0"></object>
+
+    <object name="torch-front" resource="torch" sx="0" sy="0" w="0" h="0"></object>
+    <object name="torch-side" resource="torch" sx="0" sy="0" w="0" h="0"></object>    
+</objects>

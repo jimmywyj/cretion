@@ -1,0 +1,13 @@
+health=110
+level=107
+experience=50
+character=philbert
+map=home
+spawnx=375
+spawny=222
+strength=1
+dexterity=1
+intelligence=1
+luck=1
+items=0:iron-platebody,2:hero-shortsword,6:beanie
+equipment=legwear:chain-legs,headwear:warrior-helm,weapon:hero-shortsword,bodywear:iron-platebody

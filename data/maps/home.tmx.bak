@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="48" tileheight="48" nextobjectid="1">
+ <properties>
+  <property name="borderXLeft" value="0"/>
+  <property name="borderXRight" value="816"/>
+  <property name="borderYDown" value="564"/>
+  <property name="borderYUp" value="-48"/>
+ </properties>
+ <tileset firstgid="1" name="base" tilewidth="48" tileheight="48">
+  <tile id="0">
+   <properties>
+    <property name="filename" value="stonewalls.png"/>
+    <property name="source" value="0,0"/>
+   </properties>
+   <image width="48" height="48" source="../../resources/platforms/stonewalls.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="filename" value="woodfloor.png"/>
+    <property name="source" value="0,0"/>
+   </properties>
+   <image width="48" height="48" source="../../resources/platforms/woodfloor.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="grass" tilewidth="48" tileheight="48">
+  <image source="../../resources/platforms/grass.png" width="384" height="288"/>
+  <tile id="0">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="0,0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="48,0"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="96,0"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="0,48"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="48,48"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="96,48"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="0,96"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="48,96"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="96,96"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="144,96"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="192,96"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="144,144"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="filename" value="grass.png"/>
+    <property name="source" value="192,144"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="floor" width="50" height="50">
+  <properties>
+   <property name="collision" value="false"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztz7EJADAMBDGTOvvP6yHs4kkkuAGu6h1nUBIfWXxk8ZHFB9vuQgAAAAAAAAD8qwFLMwHb
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="50">
+  <properties>
+   <property name="collision" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzzEKgEAMRcEUdmIn2q33v+Uu5AgJssUM/DKQ90TEXdgbe7iK92fLF3U6ko5eOpKOXjrSLh1j7Sjs+/9lAAAAAAAAAGg3Ae0AAqs=
+  </data>
+ </layer>
+ <layer name="props" width="50" height="50" opacity="0.9">
+  <properties>
+   <property name="collision" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1bENAAAMwjD6/9P9ggHZe+YkO67cAbDBPwAAAAAAAABgwwOzMAAF
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="TWLEffects.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/twl/TWLEffects.jar!/"/>
+	</lib>
+	<lib name="dyn4j-v3.1.8.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/dyn4j/dyn4j-v3.1.8.jar!/"/>
+	</lib>
+	<lib name="lwjgl.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/lwjgl/lwjgl.jar!/"/>
+	</lib>
+	<lib name="slick-util.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/slick/slick-util.jar!/"/>
+	</lib>
+	<lib name="slick.jar" scope="COMPILE">
+		<srcroot url="file://$MODULE_DIR$/libs/slick/src"/>
+		<relative-module-src project-related="file://$PROJECT_DIR$/libs/slick/src"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/slick/slick.jar!/"/>
+	</lib>
+	<lib name="TWL.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/twl/TWL.jar!/"/>
+	</lib>
+	<lib name="xpp3-1.1.4c.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/twl/xpp3-1.1.4c.jar!/"/>
+	</lib>
+	<lib name="libtiled.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/libtiled-java/libtiled.jar!/"/>
+	</lib>
+	<levels>
+		<level name="slick" value="project"/>
+		<level name="dyn4j" value="project"/>
+		<level name="windows" value="project"/>
+		<level name="lwjgl" value="project"/>
+		<level name="twl" value="project"/>
+		<level name="libtiled-java" value="project"/>
+	</levels>
+</component>

@@ -1,0 +1,34 @@
+---------------
+ libtiled Java
+---------------
+
+This is a small library meant to make it easy to use Tiled maps in your Java
+project. It is based on the Java version of Tiled.
+
+This small library is BSD licensed. See the LICENSE.BSD filename for details.
+
+---------
+ Authors
+---------
+
+Adam Turk <aturk@biggeruniverse.com>
+Thorbjørn Lindeijer <thorbjorn@lindeijer.nl>
+
+This library includes MiGBase64, a BSD licensed base64 encoder & decoder
+by Mikael Grev. See src/tiled/util/Base64.java for licensing details.
+
+http://www.mapeditor.org/
+
+----------
+ Building
+----------
+
+To make libtiled.jar, install Ant (http://ant.apache.org/), and run the
+following command:
+$ ant jar
+
+To run all unit-tests, run the following command:
+$ ant test
+Running unit-tests requires you to have ant-junit.jar in your classpath. This
+is usually installed by the default Ant install, but some OS:es refer to that
+as the "ant-optional" package.
