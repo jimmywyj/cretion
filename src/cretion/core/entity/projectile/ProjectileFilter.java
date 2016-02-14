@@ -24,14 +24,15 @@ public class ProjectileFilter implements Filter {
                 if (((MobFilter) filter).owner == shooter) {
                     return false;
                 } else {
-                    projectile.getComponent(LifespanComponent.class).endLifespan();
+                    // TODO: Actually find out why new projectiles aren't being created
+                    // projectile.getComponent(LifespanComponent.class).kill();
                     return true;
                 }
             } else if (filter instanceof PlayerFilter) {
                 if (((PlayerFilter) filter).owner == shooter) {
                     return false;
                 } else {
-                    projectile.getComponent(LifespanComponent.class).endLifespan();
+                    projectile.getComponent(LifespanComponent.class).kill();
                     return true;
                 }
             }

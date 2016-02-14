@@ -48,7 +48,7 @@ public class FloatingIndicatorEntity extends Entity {
 
         try {
             if (opacity <= 0) {
-                getComponent(LifespanComponent.class).endLifespan();
+                getComponent(LifespanComponent.class).kill();
             }
         } catch (Exception e) {
             e.printStackTrace();

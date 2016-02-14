@@ -32,7 +32,15 @@ public class ProjectilePhysicsComponent extends Component {
         shooter = _shooter;
     }
 
-    public void setup() throws CretionException {
+    public void reset(Vector2 _direction, World _world, Entity _shooter) {
+        positionComponent = null;
+        body = null;
+        world = _world;
+        direction = _direction;
+        shooter = _shooter;
+    }
+
+    public void setup() {
         positionComponent = entity.getComponent(PositionComponent.class);
         DimensionComponent dimensionComponent = entity.getComponent(DimensionComponent.class);
 

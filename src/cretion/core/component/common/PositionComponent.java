@@ -5,7 +5,6 @@ import java.awt.Point;
 import org.dyn4j.geometry.Vector2;
 
 import cretion.core.component.Component;
-import cretion.utilities.CretionException;
 
 public class PositionComponent extends Component {
     private float x;
@@ -43,6 +42,11 @@ public class PositionComponent extends Component {
 
     public void setY(float _y) {
         y = _y;
+    }
+
+    public void setPoint(Point _point) {
+        x = _point.x;
+        y = _point.y;
     }
 
     public PositionComponent forward(Vector2 _direction, double _distance) {

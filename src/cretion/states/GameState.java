@@ -9,6 +9,7 @@ import java.util.Map;
 import cretion.core.entity.map.MapFactory;
 import cretion.core.entity.mob.MobPrefab;
 import cretion.core.entity.player.PlayerEntity;
+import cretion.core.entity.projectile.ProjectilePool;
 import cretion.data.DataManager;
 import cretion.data.MapData;
 import cretion.data.ProfileData;

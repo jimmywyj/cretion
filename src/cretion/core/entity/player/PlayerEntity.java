@@ -5,10 +5,12 @@ import cretion.core.component.common.*;
 import cretion.core.engine.PhysicsEngine;
 import cretion.core.entity.Entity;
 import cretion.core.entity.player.components.*;
+import cretion.core.entity.projectile.ProjectilePool;
 import cretion.core.entity.projectile.ProjectilePrefab;
 import cretion.data.DataManager;
 import cretion.data.ProfileData;
 import cretion.gui.CretionCamera;
+import cretion.states.GameState;
 import org.dyn4j.geometry.Vector2;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.state.StateBasedGame;
@@ -174,10 +176,13 @@ public class PlayerEntity extends Entity {
         if (PlayerDirectionComponent.RIGHT.equals(getComponent(PlayerDirectionComponent.class).getDirection())) {
             direction = 1;
         }
-        ProjectilePrefab.createPrefab(
-                new Point((int) getComponent(PositionComponent.class).getX(),
-                          (int) getComponent(PositionComponent.class).getY()),
-                physicsEngine, new Vector2(direction, 0), this, 100);
+        Entity projectile = ProjectilePool.getProjectile(getComponent(PositionComponent.class).getPoint(),
+                "",
+                physicsEngine,
+                new Vector2(direction, 0),
+                this,
+                100);
+        GameState.toBeAddedEntities.add(projectile);
     }
 
     public void shoot() {
@@ -188,9 +193,12 @@ public class PlayerEntity extends Entity {
         Vector2 differenceVector = new Vector2(mousePosition.x - entityPosition.x,
                                                mousePosition.y - entityPosition.y);
         differenceVector.normalize();
-        ProjectilePrefab.createPrefab(
-                new Point((int) getComponent(PositionComponent.class).getX(),
-                          (int) getComponent(PositionComponent.class).getY()),
-                ProjectilePrefab.FIREBALL, physicsEngine, differenceVector, this, 5000);
+        Entity projectile = ProjectilePool.getProjectile(getComponent(PositionComponent.class).getPoint(),
+                ProjectilePrefab.FIREBALL,
+                physicsEngine,
+                differenceVector,
+                this,
+                2000);
+        GameState.toBeAddedEntities.add(projectile);
     }
 }
