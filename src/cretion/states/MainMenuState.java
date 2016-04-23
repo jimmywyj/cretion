@@ -20,7 +20,7 @@ import twl.slick.RootPane;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainMenuState extends CretionState {
+public class MainMenuState extends AbstractState {
     private StateBasedGame game;
     private List<Button> buttons;
     private Image background;

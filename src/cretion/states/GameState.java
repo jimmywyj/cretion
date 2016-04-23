@@ -9,7 +9,6 @@ import java.util.Map;
 import cretion.core.entity.map.MapFactory;
 import cretion.core.entity.mob.MobPrefab;
 import cretion.core.entity.player.PlayerEntity;
-import cretion.core.entity.projectile.ProjectilePool;
 import cretion.data.DataManager;
 import cretion.data.MapData;
 import cretion.data.ProfileData;
@@ -29,7 +28,7 @@ import cretion.core.entity.Entity;
 import cretion.gui.CretionCamera;
 import cretion.utilities.CretionException;
 
-public class GameState extends CretionState {
+public class GameState extends AbstractState {
     public static List<Entity> entities;
     public static Map<String, Engine> engines;
     public static ArrayList<CretionWindow> windows;

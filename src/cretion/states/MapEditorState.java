@@ -7,7 +7,7 @@ import org.newdawn.slick.state.StateBasedGame;
 
 import twl.slick.RootPane;
 
-public class MapEditorState extends CretionState {
+public class MapEditorState extends AbstractState {
     public MapEditorState(int _ID) {
         super(_ID);
     }
