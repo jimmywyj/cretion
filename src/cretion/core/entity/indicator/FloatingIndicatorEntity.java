@@ -3,7 +3,7 @@ package cretion.core.entity.indicator;
 import cretion.core.component.common.PositionComponent;
 import cretion.core.entity.Entity;
 import cretion.core.component.common.LifespanComponent;
-import cretion.memory.MemoryManager;
+import cretion.utilities.MemoryManager;
 import org.newdawn.slick.Color;
 
 public class FloatingIndicatorEntity extends Entity {

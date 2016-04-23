@@ -4,7 +4,7 @@ import cretion.core.component.common.ExperienceComponent;
 import cretion.core.component.common.HealthComponent;
 import cretion.core.entity.player.PlayerEntity;
 import cretion.data.DataManager;
-import cretion.memory.MemoryManager;
+import cretion.utilities.MemoryManager;
 import cretion.utilities.CretionException;
 import org.newdawn.slick.Color;
 import org.newdawn.slick.Graphics;

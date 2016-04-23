@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import cretion.core.component.common.DimensionComponent;
-import cretion.memory.MemoryManager;
+import cretion.utilities.MemoryManager;
 import cretion.states.GameState;
 import cretion.utilities.CretionInputHandler;
 import org.newdawn.slick.Color;

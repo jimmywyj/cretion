@@ -1,4 +1,4 @@
-package cretion.memory;
+package cretion.utilities;
 
 import org.newdawn.slick.Image;
 import org.newdawn.slick.TrueTypeFont;

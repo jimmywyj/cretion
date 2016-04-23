@@ -1,7 +1,7 @@
 package cretion.gui.window;
 
 import cretion.gui.CretionCamera;
-import cretion.memory.MemoryManager;
+import cretion.utilities.MemoryManager;
 import cretion.utilities.DebugInformation;
 import org.newdawn.slick.Color;
 import org.newdawn.slick.Graphics;

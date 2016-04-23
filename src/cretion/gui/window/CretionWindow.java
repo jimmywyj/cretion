@@ -3,7 +3,7 @@ package cretion.gui.window;
 import cretion.core.engine.PhysicsEngine;
 import cretion.core.entity.player.PlayerEntity;
 import cretion.gui.CretionCamera;
-import cretion.memory.MemoryManager;
+import cretion.utilities.MemoryManager;
 import cretion.states.GameState;
 
 import org.newdawn.slick.Color;

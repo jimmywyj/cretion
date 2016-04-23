@@ -1,9 +1,8 @@
 package cretion.core.component.common;
 
-import cretion.memory.MemoryManager;
+import cretion.utilities.MemoryManager;
 
 import cretion.core.component.Component;
-import cretion.utilities.CretionException;
 
 public class NameComponent extends Component {
     private String name;

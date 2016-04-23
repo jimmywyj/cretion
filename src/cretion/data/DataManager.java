@@ -3,7 +3,7 @@ package cretion.data;
 import java.io.File;
 import java.util.*;
 
-import cretion.memory.MemoryManager;
+import cretion.utilities.MemoryManager;
 import cretion.utilities.CretionException;
 
 public class DataManager {
